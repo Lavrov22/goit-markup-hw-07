@@ -1,20 +1,13 @@
-.clients__title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: var(--title-color-second);
-    margin-bottom: 50px;
-}
 
-.clients__list {
+.clients{
     display: flex;
 }
 
 .clients__item:not(:last-child) {
-    margin-right: var(--gap-in-section);
-}
+        margin-right: var(--gap-in-section);
+    }
+
+
 
 .clients__link {
     display: flex;

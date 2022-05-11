@@ -37,25 +37,23 @@
 .portfolio-products {
     display: flex;
     flex-wrap: wrap;
-
-    &__title {
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 2;
-        letter-spacing: 0.06em;
-        color: var(--title-color-second);
-    }
-
-    &__text {
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.88;
-        letter-spacing: 0.03em;
-        color: var(--paragraph-color);
-    }
-
-   
 }
+
+.portfolio-products__title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--title-color-second);
+}
+
+ .portfolio-products__text {
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 1.88;
+     letter-spacing: 0.03em;
+     color: var(--paragraph-color);
+ }
 
 .portfolio-products__item {
     width: calc((100% - 60px) / 3);

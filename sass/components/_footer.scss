@@ -2,11 +2,11 @@
     background-color: #2F303A;
     padding-top: 60px;
     padding-bottom: 60px;
+}
 
-    &__container {
-            display: flex;
-            align-items: baseline;
-        }
+.footer__container {
+    display: flex;
+    align-items: baseline;
 }
 
 .address{
@@ -26,11 +26,6 @@
 .address__link{
     color: var(--title-color);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-    &--grey{
-        color: rgba(255, 255, 255, 0.6);
-        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    }
 
     &:hover,
     &:focus{
@@ -96,37 +91,37 @@
     display: flex;
     align-items: flex-end;
     margin-left: 93px;
-    &__wrapper{
-        width: 358px;
-    }
-
-    &__label{
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 1.14;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: #FFFFFF;
-    }
-
-    &__input{
-        min-width: 358px;
-        height: 50px;
-        border: 1px solid rgba(255, 255, 255, 0.3);
-        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-        border-radius: 4px;
-        background-color: transparent;
-        padding-left: 16px;
-        margin-top: 20px;
-    
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.25;
-        letter-spacing: 0.03em;
-        color: rgba(255, 255, 255, 0.6);
-    }
-
 }
+.footer-form__wrapper{
+    width: 358px;
+}
+
+.footer-form__label{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.footer-form__input{
+    min-width: 358px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background-color: transparent;
+    padding-left: 16px;
+    margin-top: 20px;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
 
 .footer-form-btn {
     display: flex;
@@ -145,11 +140,11 @@
     margin-left: 12px;
     cursor: pointer;
     border: transparent;
+}
 
-    &__icon{
+    .footer-form-btn__icon{
         width: 24px;
         height: 24px;
         fill: #FFFFFF;
         margin-left: 10px;
     }
-}
